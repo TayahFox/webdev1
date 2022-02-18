@@ -1,0 +1,93 @@
+/* Write all your custom CSS below this line  */
+
+body {
+    margin: 0;
+    background-color: #9570DD
+}
+h1 {
+    color: purple;
+    border: solid;
+    background: rgb(180, 96, 180);
+    text-align: center;
+    font-family: 'caveat';
+    font-size: 1.8em;
+
+    
+}
+p{
+    border: solid purple .3em;
+    border-top: 0em;
+    width: 55.5%;
+    margin-left: 14.6em;
+    margin-top: -1em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    background-color: rgb(180, 96, 180);
+    text-align: center;
+    font-family: 'caveat';
+    font-size: 1.8em
+    
+
+    
+    
+}
+.butter-pic{
+    height: 45em;
+    width: 68em;
+    display: block;
+    margin: auto;
+   
+}
+.vouge{
+    width: 67em;
+    display: block;
+    margin: auto;
+}
+.festa{
+    height: 46em;
+    display: block;
+    margin: auto;
+}
+section{ 
+   
+}
+h3{
+    background-color: rebeccapurple;
+   padding: 2em;
+   margin-left: 14.6em;
+   align-content: center;
+   border: .3em solid purple;
+   text-align: center;
+   font-family: 'caveat'; 
+   font-size: 1.8em;
+   width: 49.5%;
+
+   
+}
+h2{
+    text-align: center;
+    font-family: 'caveat';
+    color: rgb(80, 3, 80);
+    font-size: 1.8em;
+}
+.purple-text{
+    color: purple;
+    font-size: 20em;
+}
+
+a{
+    color: purple;
+    font-family: 'caveat';
+    font-size: 1.8em;
+   padding: 2em;
+   margin-left: 10em;
+
+}
+.footer{
+    margin-top: 2em;
+    border: .3em purple solid;
+    width: 61.5em;
+    margin-left:1.5em
+}
+
+
