@@ -1,0 +1,124 @@
+body{
+    background-image: url(gif/stars-pi.gif);
+
+}
+.welcome{
+ left: 45em; top: 25em;
+    width: 25%;
+    max-width: 25%;
+    min-width: 10%;
+    
+    
+}
+h1{
+    font-family: 'shrikhand';
+    color: rgb(255, 133, 235);
+    position: relative; 
+    margin: 2em auto;
+    bottom: 2em;
+}
+
+    section{  
+        max-width: 20em;
+        position: relative;
+    
+        
+    }
+    h2{
+        background-image: url(gif/tumblr_pbs0fcUl0e1ujesf3o5_250.gif);
+        text-align: center;
+        margin: auto;
+        color: rgb(255, 133, 235);
+        font-family: "shrikhand";
+        
+    
+        
+    }
+    p{
+        background-color: white;
+        text-align: center;
+        margin: auto;
+        
+    }
+    li{
+        background-color: white;
+        font-family: 'shrikhand';
+        color: rgb(255, 133, 235);
+        text-align: center;
+        max-width: 50%;
+        margin: auto;
+        position: relative;
+        bottom: 45em;
+        left: 25.5em
+    }
+    .favorite{
+        max-width: 50%;
+        margin: auto;
+        position: relative;
+        bottom: 30em;
+        left: 17em;
+    }
+    .hello-kitty{
+        width: 13%;
+        margin: auto;
+        position: absolute;
+        bottom: 39em;
+        left: 75em;
+    }
+    
+    
+    .fun-facts{
+        max-width: 50%;
+        font-family: 'shrikhand';
+        left: 26em;
+        bottom: 40em;
+        color: rgb(255, 133, 235); 
+        margin: auto;
+
+
+    }
+    .online{
+       width: 10%;
+       position: fixed;
+       top: 0em;
+       right: 0em;
+    }
+    .message{
+        position: relative;
+        bottom: 63em;
+        left: 35em;
+        width: 8%;
+    }
+    .kitty{
+        width: 8%;
+        position: absolute;
+        bottom: 15em;
+        left: 75em;
+    }
+    .stars{
+        width: 40em;
+        position: absolute;
+        bottom: 25em;
+        left: 60em;
+    }
+    .folder{
+        width: 10%;
+        position: absolute;
+        bottom: 6em;
+        left: 1em;
+    }
+    .folder-two{
+        width: 10%;
+        position: absolute;
+        bottom: 6em;
+        left: 9em;
+        
+    }
+    .thank{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .sailor{
+        width: 50%;
+    }
+   
+    
