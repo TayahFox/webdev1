@@ -1,0 +1,163 @@
+body{
+    background-color: #602257;
+}
+ 
+.Index{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #97EAD2;
+    margin-left: 45vw;
+    font-style: italic;
+    
+}
+
+.loading{
+    position: absolute;
+    left: 50vw;
+    top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #92D9BA;
+}
+
+a:hover{
+    background-color: #7B4880;
+}
+
+.waiting{
+    position: absolute;
+    left: 50vw;
+    top: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #92D9BA;
+}
+
+.dot{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    background-color: #8CC7A1;
+    display: inline-block;
+    animation: bounce 2s infinite cubic-bezier(.17,.67,.83,.67)
+
+}
+#container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes bounce{
+     0%{
+         transform: scale(.6);
+         background:#97EAD2;
+     }
+
+     50%{
+         transform: scale(1);
+         
+     }
+
+     100%{
+         transform: scale(.3);
+         background: #9E2E93;
+     }
+
+}
+.dot:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.dot:nth-child(2){
+    animation-delay: .1s;
+}
+
+.dot:nth-child(3){
+    animation-delay: .2s;
+}
+
+.dot:nth-child(4){
+    animation-delay: .3s;
+}
+
+.dot:nth-child(5){
+    animation-delay: .5s;
+}
+
+.back{
+    color: #92D9BA;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 5%;
+}
+.loading-back{
+    color: #92D9BA;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   position: absolute;
+    top: 1rem;
+    left: 5rem;
+}
+
+.outline{
+
+    width: 50vw;
+    height: 2rem;
+    border: .5rem white solid;
+    position: relative;
+    border-radius: 3rem;
+    margin: 0 auto;
+    top: 20rem;
+}
+
+.bar{
+
+    width: 0;
+    height: 100%;
+    background: #92D9BA;
+    border-radius: 3rem;
+    animation: loading 7s forwards ease-out;
+    position: absolute;
+}
+
+@keyframes loading{
+
+    0%{
+        width: 0;
+    }
+
+    25%{
+        width: 25%;
+    }
+
+    50%{
+        width 50%;
+    }
+
+    100%{
+        width: 100%;
+    }
+}
+.blinking{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #92D9BA;
+    font-size: 5vw;
+    font-style: italic;
+    position: absolute;
+    bottom: 5rem;
+    left: 16vw;
+    animation: blinking 2s linear infinite;
+}
+
+@keyframes blinking{
+  
+0%{
+    opacity: 0;
+}
+
+50%{
+    opacity: .5;
+}
+
+100{
+    opacity: 1;
+}
+}
