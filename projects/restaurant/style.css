@@ -1,0 +1,270 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    transition: all .5s cubic-bezier(.75,-0.01,.03,1);
+}
+
+header{
+padding-top: 2rem;
+padding-bottom: 2rem;
+background-color: #606C38;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: sticky;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1000;
+box-shadow: 0.5rem .5rem 0.5rem rgb(169, 167, 167) ;
+}
+
+header .logo{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+header a{
+    color:white;
+}
+
+header .logo i{
+    color: #BC6C25;
+}
+
+header .navbar a{
+    color: white;
+}
+
+header .navbar a:hover{
+    color: #BC6C25;
+}
+
+.navbar a{
+    padding: 1rem;
+}
+
+#hamburger{
+    font-size: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    color: #D8E2DC;
+    display: none;
+}
+
+
+.home-bg{
+    background-image: url(images/Low-Waste-1.png);
+    background-position: center !important;
+    background-size: cover !important;
+    position: relative;
+    min-height: 100vh;
+    width: auto;
+    opacity: .9;
+    z-index: 0;
+}
+
+
+
+.text{
+    position: relative;
+    text-align: center;
+    font-size: 4vw;
+    padding: 10rem;
+    color: #BC6C25;
+    
+}
+
+.subtitle{
+    color:#BC6C25
+}
+
+.menu-button{
+    background-color: #606C38;
+    
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+.heading{
+padding: 2rem;
+text-align: center;
+}
+
+.box-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25vw 25vw 25vw;
+    gap: 2rem;
+    
+}
+
+.box{
+    border-radius: .5rem;
+    background: rgb(245, 242, 242);
+    padding: 2rem;
+    display: flex;
+    width: 20rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+h3{
+    color: #606C38;
+}
+
+h3:hover{
+    color: #BC6C25;
+}
+
+.price{
+    color: #BC6C25;
+}
+
+img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.carm-shake{
+    height: 7rem;
+    width: 6rem;
+}
+
+.choc-shake{
+    width: 7rem;
+    height: 7rem;
+}
+
+.strw-shake{
+    height: 7rem;
+    width: 7rem;
+}
+
+.iced-coffee{
+    width: 6rem;
+    height: 7rem;
+}
+
+
+.iced-latte{
+    width: 6rem;
+    height: 7rem;
+}
+
+.foam{
+    height: 7rem;
+    width: 7rem;
+}
+
+h2{
+    text-align: center;
+    padding-top: 2rem;
+    color: #606C38;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+
+    
+}
+
+
+.about-text{
+
+   text-align: center;
+   color: #BC6C25;
+}
+
+
+
+.pic{
+    width: 25rem;
+    height: 15rem;
+    
+}
+
+.sugar-free{
+    position: relative;
+
+    width: 20rem;
+    height: 20rem;
+}
+
+.title{
+    padding: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:35rem){
+    #hamburger{
+        display: inline-block;
+    }
+
+    .fa-times{
+        transform: rotate(180deg);
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        border-top: solid black;
+        clip-path: polygon(0 0,100% 0, 100% 0, 0 0);
+        background-color: #BC6C25;
+    }
+
+header .navbar.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+    header .navbar a{
+        display: block;
+        margin: 1rem;
+    }
+
+    .text{
+       display: flex;
+       position: relative;
+       flex-direction: column;
+       justify-content: center;
+       top: 12rem;
+       padding: 1rem;
+        
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-text{
+
+        font-size: .7rem;
+    }
+    
+    .box-container{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+
+}
